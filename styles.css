@@ -1,0 +1,4 @@
+::selection {
+	background-color: var(--ds-text-selected) !important; /* For Chrome < 119, which don't support relative color syntax */
+	background-color: rgb(from var(--ds-text-selected) r g b / 50%) !important;
+}
